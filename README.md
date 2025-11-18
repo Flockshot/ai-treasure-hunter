@@ -60,10 +60,10 @@ The `task_2.py` script can parse any maze that follows the format defined in `ma
 * **`MyTree` Class:** Represents the map as a graph, where each instance is a node that holds its name, heuristic, and a list of edges to its neighbors.
 * **`Path` Class:** A data structure that stores the state of a search path, including the full journey (list of nodes) and the `total_cost`.
 * **`run_maze(file_name)`:** The main function in `task_2.py`. It:
-    1.  Opens and parses the specified maze file.
-    2.  Creates a list of `MyTree` nodes, calculating the Manhattan distance heuristic for each one.
-    3.  Connects the nodes by adding edges based on the file's boolean values (up, down, left, right).
-    4.  Runs BFS, UCS, and A\* search on the constructed graph, printing the results for each.
+    1.  Opens and parses the specified maze file.
+    2.  Creates a list of `MyTree` nodes, calculating the Manhattan distance heuristic for each one.
+    3.  Connects the nodes by adding edges based on the file's boolean values (up, down, left, right).
+    4.  Runs BFS, UCS, and A\* search on the constructed graph, printing the results for each.
 
 ---
 
