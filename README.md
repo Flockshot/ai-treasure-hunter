@@ -18,9 +18,8 @@ In this task, a simple, weighted graph is used to represent a treasure map. The 
 * **Heuristics:** The A\* algorithm uses a pre-defined heuristic provided in the project specification.
 * **Source Code:** `task_1.py`
 
-> **[Image: Screenshot of the Treasure Map graph from ai-treasure-hunter.pdf, Page 2]**
->
-> *(**Developer Note:** Place the screenshot of the simple map graph here .)*
+![Image: Screenshot of the Treasure Map graph](.media/Map.png)
+
 
 ### 🏛️ Task 2: The Mayan Maze
 
@@ -30,17 +29,7 @@ This task implements pathfinding in a grid-based maze. The maze layout, includin
 * **Heuristics:** The A\* algorithm uses the **Manhattan distance** as its heuristic, calculated dynamically for each node.
 * **Source Code:** `task_2.py`
 
-> **[Image: Screenshot of the Maze Grid from ai-treasure-hunter.pdf, Page 4]**
->
-> *(**Developer Note:** Place the screenshot of the numbered maze grid here .)*
-
-### ✨ Maze Solution Path (A\* Search)
-
-This image shows the final, optimal path found by the A\* algorithm for the primary maze (`maze.txt`).
-
-> **[Image: Screenshot of the Maze Grid WITH the final path drawn on it]**
->
-> *(**Developer Note:** This is your most important visual! Run `task_2.py`, get the "Best Solution" path for `maze.txt`, and draw that path on the maze screenshot.)*
+![Image: Screenshot of the Maze Grid](.media/Maze.png)
 
 ---
 
@@ -95,7 +84,7 @@ This program is designed to be run from a console or an IDE.
 ```bash
 python task_2.py
 ```
-> **Note:** The script runs very quickly and will print all outputs to the console before exiting. To see the full output, it is recommended to run the file in an IDE like **PyCharm** or **IDLE**.
+> **Note:** The script runs very quickly and will print all outputs to the console before exiting. To see the full output either add a wait at the end or run the file in an IDE like **PyCharm** or **IDLE**.
 
 ### Example Output
 
